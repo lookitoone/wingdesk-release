@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "product": "wingdesk",
+  "platform": "windows-x64",
+  "version": "1.5.7",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-1.5.7.zip",
+  "sha256": "9eb54308f91530af9d63f7c4f27a1e68b11f7921637d2ab3c876fa1dae55efec",
+  "size": 1403617,
+  "notes": "실제 배포 채널 연결: 주소 입력 없이 새 버전을 확인합니다.\n업데이트하고 실행 한 번으로 설치와 재실행을 진행합니다.\n진행 중인 등록·수집·주문 작업이 있으면 업데이트를 차단합니다.\nWindows 실기기 실행 전환은 별도 확인이 필요합니다."
+}
