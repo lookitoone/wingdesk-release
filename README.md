@@ -4,27 +4,33 @@ WingDesk Windows 프로그램의 실행 파일과 자동 업데이트 안내를 
 
 ## 최초 설치
 
-[새 WingDesk 런처 2.0.0 다운로드](https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/launchers/WingDeskLauncher-2.0.0.exe)
+[새 WingDesk 런처 2.0.1 다운로드](https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/launchers/WingDeskLauncher-2.0.1.exe)
 
-[안내 파일 포함 ZIP](https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/launchers/WingDeskLauncher-2.0.0.zip)
+[안내 파일 포함 ZIP](https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/launchers/WingDeskLauncher-2.0.1.zip)
 
-WingDeskLauncher-2.0.0.exe를 실행하고 파란색 ‘WingDesk 설치하고 시작’을 누르세요. 기존 런처가 열려 있다면 먼저 종료하세요. 다음부터는 바탕화면의 ‘WingDesk 런처’를 사용합니다. 첫 실행에는 인터넷 연결이 필요합니다. Windows 10/11 64비트와 .NET Framework 4.7.2 이상을 사용하며 별도 Python 설치나 관리자 권한은 필요하지 않습니다.
+WingDeskLauncher-2.0.1.exe를 실행하고 파란색 ‘WingDesk 설치하고 시작’을 누르세요. 기존 런처가 열려 있다면 먼저 종료하세요. 다음부터는 바탕화면의 ‘WingDesk 런처’를 사용합니다. 첫 실행에는 인터넷 연결이 필요합니다. Windows 10/11 64비트와 .NET Framework 4.7.2 이상을 사용하며 별도 Python 설치나 관리자 권한은 필요하지 않습니다.
 
 새 런처는 일반 .NET Windows 프로그램이며 숨겨진 PowerShell이나 자체 압축 해제 EXE를 사용하지 않습니다. python.org의 공식 Python을 내려받아 고정 SHA-256·파일별 해시·Windows 배포자 서명을 확인한 뒤 실행합니다. 현재 상품 관리 버전은 1.6.3입니다. 기존 상품·계정 저장 위치를 유지합니다.
 
 이 런처는 아직 WingDesk 배포자 인증서로 서명되지 않았습니다. Chrome·Defender 미탐지를 보장하지 않으며 Windows 실기기와 실제 브라우저 탐지는 미검증입니다. 보안 경고가 계속되면 강제로 실행하거나 보안 기능을 끄지 말고 정확한 경고·탐지 이름을 배포자에게 전달하세요. 배포자는 정식 코드 서명과 공급업체의 탐지 재검토를 진행해야 합니다.
 
-[런처 실행 파일 SHA-256](https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/launchers/WingDeskLauncher-2.0.0.sha256.txt)
+[런처 실행 파일 SHA-256](https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/launchers/WingDeskLauncher-2.0.1.sha256.txt)
 
 ## 이후 업데이트
 
-새 런처 2.0.0은 launcher-app.json에서 새 상품 관리 버전을 확인합니다. ‘업데이트하고 실행’을 누르면 일반 앱 파일 묶음을 검사·설치하고 공식 Python으로 실행합니다. 기존 자체 압축 해제 EXE는 내려받거나 실행하지 않습니다. 실행 파일과 소스가 들어 있던 기존 공개 1.6.3 배포본에서 앱 파일 245개의 바이트를 그대로 가져왔고, 파일별 해시 목록을 덧붙였습니다.
+새 런처 2.0.1은 launcher-app.json에서 새 상품 관리 버전을 확인합니다. ‘업데이트하고 실행’을 누르면 일반 앱 파일 묶음을 검사·설치하고 공식 Python으로 실행합니다. 기존 자체 압축 해제 EXE는 내려받거나 실행하지 않습니다. 실행 파일과 소스가 들어 있던 기존 공개 1.6.3 배포본에서 앱 파일 245개의 바이트를 그대로 가져왔고, 파일별 해시 목록을 덧붙였습니다.
 
 기존 런처는 update.json에서 새 버전을 확인합니다. ‘업데이트하고 실행’을 누르면 다운로드·검사·설치 후 새 버전을 엽니다. 상품 등록·수집·주문 작업 중에는 먼저 작업을 마치라는 안내를 표시합니다. 상품·계정 데이터는 사용자 PC에 유지합니다.
 
 1.5.8 런처는 1.6.3으로 업데이트할 수 있습니다. 이전 런처에서 코드 1 종료 오류가 나면 최신 ZIP의 WingDeskLauncher.exe를 사용하세요.
 
 [고정 업데이트 안내](https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/update.json)
+
+## 런처 2.0.1 압축 해제 오류 수정
+
+2.0.0에서 파일을 내려받은 후 압축 해제 단계에 System.String.TrimEnd(Char) 메서드 오류가 발생하던 문제를 수정했습니다. 모든 TrimEnd 호출을 Windows .NET Framework가 지원하는 Char[] 형태로 바꾸고 Microsoft의 공식 .NET Framework 4.7.2 참조 라이브러리로 다시 빌드했습니다. 이전 바이너리의 잘못된 호출과 수정본의 호환 호출을 실제 메타데이터에서 대조했습니다. 빌드 단계에서도 Mono 구현 DLL을 대상으로 지정하면 거부합니다.
+
+열려 있는 2.0.0 런처를 모두 닫고 새 WingDeskLauncher-2.0.1.exe를 실행하세요. 기존 상품 관리 버전 1.6.3과 데이터 저장 위치는 유지합니다. 무결성 검사 47개와 운영 서버 다운로드·압축 해제·설치·해시 오류 시 기존 설치 보존 검증을 통과했습니다. Windows 실기기의 전체 실행은 여전히 별도 확인이 필요합니다.
 
 ## 1.6.3 빠진 정보 안내와 단계별 입력
 
@@ -60,6 +66,6 @@ WingDeskLauncher-2.0.0.exe를 실행하고 파란색 ‘WingDesk 설치하고 �
 
 1.6.3: Python 검사 323개와 테스트 API 기반 Chromium UI 흐름을 통과했습니다. 실제 배포 파일의 버전·크기·해시를 검증합니다. Windows 실기기의 준비 화면·바로가기·프로세스 실행 전환과 실제 판매자 API 동작은 별도 확인이 필요합니다.
 
-## 런처 2.0.0 검증
+## 런처 2.0.1 검증
 
-Microsoft Roslyn으로 컴파일하고 CLR 엔트리포인트·asInvoker·버전·아이콘·정상 PE 섹션과 추가 압축 페이로드 부재를 확인했습니다. 실제 앱 묶음과 공식 Python의 35개 파일을 포함한 무결성·경로·상태 검사 46개를 통과했습니다. 앱 묶음의 격리된 시작/API 응답과 Mono WinForms의 첫 설치·실행·업데이트 버튼 배치를 확인했습니다. Windows 전자서명 검사 실행·바로가기·프로세스 전환, Chrome/Defender 탐지와 실제 판매자 API는 별도 검증 대상입니다.
+Microsoft Roslyn으로 컴파일하고 CLR 엔트리포인트·asInvoker·버전·아이콘·정상 PE 섹션과 추가 압축 페이로드 부재를 확인했습니다. 실제 앱 묶음과 공식 Python의 35개 파일을 포함한 무결성·경로·상태 검사 47개를 통과했습니다. 앱 묶음의 격리된 시작/API 응답과 Mono WinForms의 첫 설치·실행·업데이트 버튼 배치를 확인했습니다. Windows 전자서명 검사 실행·바로가기·프로세스 전환, Chrome/Defender 탐지와 실제 판매자 API는 별도 검증 대상입니다.
