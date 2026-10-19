@@ -2,9 +2,9 @@
   "schema": 1,
   "product": "wingdesk",
   "platform": "windows-x64",
-  "version": "1.5.8",
-  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-1.5.8.zip",
-  "sha256": "42efd1b530f0818f3b4587cc7dc3ffa01800bad68dfab9dbd55175cb41f6c92c",
-  "size": 1408883,
-  "notes": "Windows 내장 Python에서 런처 시작 시 코드 1로 종료되는 경로 오류를 수정했습니다.\n초기 모듈 로딩 실패도 상세 오류로 기록하고 준비 화면에 표시합니다.\n기존 상품·계정 데이터와 업데이트 배포 채널을 유지합니다.\n격리 실행 조건에서 검증했으며 Windows GUI 실기기 확인은 별도로 필요합니다."
+  "version": "1.6.0",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-1.6.0.zip",
+  "sha256": "acc4082f5fab7e4aa9fcfe06f93377a12193b7f83bfb9ed9f29c21de61fc1ea9",
+  "size": 1443869,
+  "notes": "상품 관리에 쿠팡 등록 탭을 추가했습니다.\n카테고리 추천·누락 정보 보완·공통 필수정보 입력을 지원합니다.\n등록 내용을 확인한 뒤 판매 승인 요청 또는 임시저장으로 실제 전송합니다.\n발급된 상품 ID와 현재 상태를 작업 내역에서 조회합니다.\n301개 검사와 테스트 API 기반 브라우저 흐름을 통과했습니다. 실제 판매 계정·Windows 실기기는 미검증입니다."
 }
