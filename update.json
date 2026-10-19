@@ -2,9 +2,9 @@
   "schema": 1,
   "product": "wingdesk",
   "platform": "windows-x64",
-  "version": "1.6.2",
-  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-1.6.2.zip",
-  "size": 1476831,
-  "sha256": "d2833f862d2ac6f4f35c3076259b0613f17b73cd3bb77758f5ccf8bab5c70cff",
-  "notes": "상품 유형을 단일상품 / 옵션형·N개 배지로 표시합니다.\n등록 방식·바로 등록·시간 예약을 상단에 모으고 보조 기능은 도구 메뉴로 정리했습니다.\n등록 현황에 진행률·현재 처리 상품·성공/실패/확인 필요·남은 수량을 표시합니다.\n모든 화면에서 1.5초 간격으로 새 등록 작업을 확인하며 결과 필터·페이지·이전 작업 조회를 지원합니다.\n320개 검사와 테스트 API 기반 Chromium 검증을 통과했습니다. 실제 판매 계정·Windows 실기기는 미검증입니다."
+  "version": "1.6.3",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-1.6.3.zip",
+  "size": 1494898,
+  "sha256": "87093db7a0d2d67ce63db34cce2cb6e159e8032395dec6d31536b5a639143221",
+  "notes": "빠진 정보를 상품 옆에 바로 표시합니다. 등록 검사 실패 시 필요한 정보와 첫 상품 입력 버튼을 보여 줍니다.\n빠진 정보 입력하기에서 필요한 칸만 단계별로 안내하며, 저장하고 다음으로 진행합니다.\n옵션별 수량·색상, 상품 안내정보, 인증 여부 등을 일반 입력칸으로 작성하고 다음 상품으로 이어집니다.\n인증·제조사·재고 등 실제 사실은 자동으로 선택하지 않습니다.\n323개 검사와 테스트 API 기반 5개 상품 입력·1,000개 등록 흐름을 통과했습니다. 실제 판매 계정·Windows 실기기는 미검증입니다."
 }

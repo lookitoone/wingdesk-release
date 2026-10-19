@@ -4,7 +4,7 @@ WingDesk Windows 프로그램의 실행 파일과 자동 업데이트 안내를 
 
 ## 최초 설치
 
-[WingDesk 1.6.2 실행 ZIP 다운로드](https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-1.6.2.zip)
+[WingDesk 1.6.3 실행 ZIP 다운로드](https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-1.6.3.zip)
 
 압축을 풀고 WingDeskLauncher.exe를 실행하세요. 기존 런처가 열려 있다면 먼저 종료하세요. 별도 Python 설치나 관리자 권한은 필요하지 않습니다. 첫 실행에는 인터넷 연결이 필요합니다.
 
@@ -12,9 +12,15 @@ WingDesk Windows 프로그램의 실행 파일과 자동 업데이트 안내를 
 
 런처가 새 버전을 확인합니다. ‘업데이트하고 실행’을 누르면 다운로드·검사·설치 후 새 버전을 엽니다. 상품 등록·수집·주문 작업 중에는 먼저 작업을 마치라는 안내를 표시합니다. 상품·계정 데이터는 사용자 PC에 유지합니다.
 
-1.5.8 런처는 1.6.2으로 업데이트할 수 있습니다. 이전 런처에서 코드 1 종료 오류가 나면 최신 ZIP의 WingDeskLauncher.exe를 사용하세요.
+1.5.8 런처는 1.6.3으로 업데이트할 수 있습니다. 이전 런처에서 코드 1 종료 오류가 나면 최신 ZIP의 WingDeskLauncher.exe를 사용하세요.
 
 [고정 업데이트 안내](https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/update.json)
+
+## 1.6.3 빠진 정보 안내와 단계별 입력
+
+등록에 필요한 정보가 빠져 있으면 상품 옆에 내용을 바로 표시합니다. 등록 검사 후에는 아직 전송하지 않았다는 안내와 필요한 정보별 상품 수, 첫 상품 입력 버튼을 보여 줍니다.
+
+‘빠진 정보 입력하기’를 누르면 필요한 칸만 큰 글씨로 안내합니다. ‘입력한 내용 저장하고 다음으로’를 눌러 필수 특징·종류와 재고·상품 안내정보·인증 등을 차례로 입력하고 다음 상품으로 넘어갑니다. 빈칸은 같은 화면에서 안내하며 입력한 내용은 단계마다 저장합니다. 인증 대상 여부·제조사·재고 등의 실제 사실은 자동으로 선택하지 않습니다. 모든 입력이 끝난 뒤 등록 내용을 따로 확인해야 쿠팡에 전송합니다.
 
 ## 1.6.2 화면 정리와 등록 현황
 
@@ -42,4 +48,4 @@ WingDesk Windows 프로그램의 실행 파일과 자동 업데이트 안내를 
 
 ## 검증 범위
 
-1.6.2: Python 검사 320개와 테스트 API 기반 Chromium UI 흐름을 통과했습니다. 실제 배포 파일의 버전·크기·해시를 검증합니다. Windows 실기기의 준비 화면·바로가기·프로세스 실행 전환과 실제 판매자 API 동작은 별도 확인이 필요합니다.
+1.6.3: Python 검사 323개와 테스트 API 기반 Chromium UI 흐름을 통과했습니다. 실제 배포 파일의 버전·크기·해시를 검증합니다. Windows 실기기의 준비 화면·바로가기·프로세스 실행 전환과 실제 판매자 API 동작은 별도 확인이 필요합니다.
