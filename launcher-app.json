@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "product": "wingdesk-source",
+  "platform": "windows-x64",
+  "version": "1.6.3",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.6.3.zip",
+  "size": 619089,
+  "sha256": "77e8e9cd0927776b7872eb7d3dd532e73db10661489108b6f1ca70589e3ce228",
+  "notes": "상품별 빠진 정보 안내와 단계별 입력을 지원합니다. 새 런처에서는 PowerShell이나 자체 압축 해제 EXE 없이 프로그램 파일을 준비합니다."
+}
