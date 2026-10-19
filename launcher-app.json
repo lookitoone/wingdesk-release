@@ -2,9 +2,9 @@
   "schema": 1,
   "product": "wingdesk-source",
   "platform": "windows-x64",
-  "version": "1.6.4",
-  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.6.4.zip",
-  "size": 629684,
-  "sha256": "4edf7e2183b2d4b3c330ae52ca2453087bc0a025840fe39c87d8d57a2339ebe7",
-  "notes": "상품명·공급사 옵션·상세설명 텍스트에서 수량과 단위를 자동으로 채웁니다. 상품 고시는 상세페이지 참조로 채우고, 인증 비대상·병행수입 아님·전체 연령·구매수량 제한 없음·판매기간 제한 없음 기본 프리셋을 저장해 일괄 적용합니다. 필수 인증번호는 확인 대상으로 남깁니다. 기존 입력값을 유지합니다."
+  "version": "1.6.5",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.6.5.zip",
+  "size": 633029,
+  "sha256": "7352f307963807fafb2cbb81424136bb3aac8ed33ff28dff575220a9819bd314",
+  "notes": "등록 실패 시 쿠팡의 실제 거절 사유와 문제 옵션·속성을 표시합니다. 성공 응답의 [] 표시를 정리하고 오류와 상품 ID가 함께 오면 남은 전송을 중단합니다. 이전 기록의 누락 사유는 복원할 수 없습니다. PATCHNOTES.md를 함께 제공합니다."
 }
