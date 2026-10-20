@@ -2,9 +2,9 @@
   "schema": 1,
   "product": "wingdesk-source",
   "platform": "windows-x64",
-  "version": "1.6.5",
-  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.6.5.zip",
-  "size": 633029,
-  "sha256": "7352f307963807fafb2cbb81424136bb3aac8ed33ff28dff575220a9819bd314",
-  "notes": "등록 실패 시 쿠팡의 실제 거절 사유와 문제 옵션·속성을 표시합니다. 성공 응답의 [] 표시를 정리하고 오류와 상품 ID가 함께 오면 남은 전송을 중단합니다. 이전 기록의 누락 사유는 복원할 수 없습니다. PATCHNOTES.md를 함께 제공합니다."
+  "version": "1.6.6",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.6.6.zip",
+  "size": 638073,
+  "sha256": "a93beb2edee20597623e362105cd10d571065e90b9c5420ba1a41f627fd11249",
+  "notes": "상품 선택 후 품명·제조사·수량·고시·검색어를 먼저 자동 입력합니다. 기타 재화 우선 선택, 확인되는 검색필터 입력, 반품 배송비 별도 저장과 검색어 일괄 붙여넣기를 추가했습니다. PATCHNOTES.md를 함께 제공합니다."
 }
