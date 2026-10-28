@@ -10,7 +10,7 @@ WingDesk Windows 프로그램의 실행 파일과 자동 업데이트 안내를 
 
 WingDeskLauncher-2.0.1.exe를 실행하고 파란색 ‘WingDesk 설치하고 시작’을 누르세요. 기존 런처가 열려 있다면 먼저 종료하세요. 다음부터는 바탕화면의 ‘WingDesk 런처’를 사용합니다. 첫 실행에는 인터넷 연결이 필요합니다. Windows 10/11 64비트와 .NET Framework 4.7.2 이상을 사용하며 별도 Python 설치나 관리자 권한은 필요하지 않습니다.
 
-새 런처는 일반 .NET Windows 프로그램이며 숨겨진 PowerShell이나 자체 압축 해제 EXE를 사용하지 않습니다. python.org의 공식 Python을 내려받아 고정 SHA-256·파일별 해시·Windows 배포자 서명을 확인한 뒤 실행합니다. 현재 상품 관리 버전은 1.6.7입니다. 기존 상품·계정 저장 위치를 유지합니다.
+새 런처는 일반 .NET Windows 프로그램이며 숨겨진 PowerShell이나 자체 압축 해제 EXE를 사용하지 않습니다. python.org의 공식 Python을 내려받아 고정 SHA-256·파일별 해시·Windows 배포자 서명을 확인한 뒤 실행합니다. 현재 상품 관리 버전은 1.6.8입니다. 기존 상품·계정 저장 위치를 유지합니다.
 
 이 런처는 아직 WingDesk 배포자 인증서로 서명되지 않았습니다. Chrome·Defender 미탐지를 보장하지 않으며 Windows 실기기와 실제 브라우저 탐지는 미검증입니다. 보안 경고가 계속되면 강제로 실행하거나 보안 기능을 끄지 말고 정확한 경고·탐지 이름을 배포자에게 전달하세요. 배포자는 정식 코드 서명과 공급업체의 탐지 재검토를 진행해야 합니다.
 
@@ -25,6 +25,10 @@ WingDeskLauncher-2.0.1.exe를 실행하고 파란색 ‘WingDesk 설치하고 �
 1.5.8 런처는 1.6.3으로 업데이트할 수 있습니다. 이전 런처에서 코드 1 종료 오류가 나면 최신 ZIP의 WingDeskLauncher.exe를 사용하세요.
 
 [고정 업데이트 안내](https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/update.json)
+
+## 1.6.8 상품 메모
+
+등록 대기와 쿠팡 등록됨 탭에 별도 메모장을 추가했습니다. 각 탭에서 품목과 수량을 직접 기록하고 저장할 수 있습니다. 저장된 메모는 이 PC에 보관됩니다.
 
 ## 런처 2.0.1 압축 해제 오류 수정
 
