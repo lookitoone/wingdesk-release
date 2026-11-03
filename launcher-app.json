@@ -2,9 +2,9 @@
   "schema": 1,
   "product": "wingdesk-source",
   "platform": "windows-x64",
-  "version": "1.7.0",
-  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.7.0.zip",
-  "size": 2773574,
-  "sha256": "395125273b53af5e08ef75476b352b5d2f73868a21fbba65c7c606f5d1d96638",
-  "notes": "AI 상세페이지 체험: 상품 사진 분석·문구·연출 이미지 생성, 수정·미리보기·다운로드·상품 적용을 추가했습니다. Gemini 무료 프로젝트와 Cloudflare Workers Free 계정 연결이 필요합니다. 실제 계정 생성 품질과 Windows 실기기는 미검증입니다."
+  "version": "1.7.1",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.7.1.zip",
+  "size": 2773200,
+  "sha256": "bdb6c5d1a25654054f0b387a6bc16a1e68b7b54a6d92be98731e20470794bad9",
+  "notes": "상품 목록 열별 정렬과 쿠팡 등록 화면의 상품 등록 제외 기능을 추가했습니다."
 }
