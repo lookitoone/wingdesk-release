@@ -2,9 +2,9 @@
   "schema": 1,
   "product": "wingdesk-source",
   "platform": "windows-x64",
-  "version": "1.7.2",
-  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.7.2.zip",
-  "size": 2777483,
-  "sha256": "4d389b5477ee66304f57dff94e87fc21c55ab2b8e1638a5f18787dd5d1dfc627",
-  "notes": "상품별 마진율 설정, 예상 이익 정렬, 선택한 수집 상품 삭제와 AI 연결 안내서를 추가했습니다."
+  "version": "1.7.3",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.7.3.zip",
+  "size": 2777929,
+  "sha256": "113ed6fbf22e1bb4f947898b557ced1d6619f308daa5b1de9c36c3e96de5259c",
+  "notes": "오너클랜 계정의 Windows 암호화 저장을 기본 선택하고, 저장 상태와 재실행 시 자동 인증을 안내합니다."
 }
