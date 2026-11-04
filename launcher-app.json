@@ -2,9 +2,9 @@
   "schema": 1,
   "product": "wingdesk-source",
   "platform": "windows-x64",
-  "version": "1.8.0",
-  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.8.0.zip",
-  "size": 2837891,
-  "sha256": "5a3b9c766a1c31e1882f4603bcdd48d8123638b0e04e9fa91799721ba011ac07",
-  "notes": "6개월 미판매 후보와 보호 상품을 검토하고 확인 후 개별 삭제합니다. 자동 정리는 검토 중 일시 중지됩니다. 실제 계정 검증 필요."
+  "version": "1.8.1",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.8.1.zip",
+  "size": 2838591,
+  "sha256": "e42446022eb38a478055e89ee2412a81b2a2a6f1d1e117f9ecb58b0d4fd3337e",
+  "notes": "등록 후 6개월이 지나도록 주문 이력이 없는 상품을 검토합니다. 예전 주문도 모든 옵션을 보호합니다. 실제 계정 이력 대조가 필요합니다."
 }
