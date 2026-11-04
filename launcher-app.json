@@ -2,9 +2,9 @@
   "schema": 1,
   "product": "wingdesk-source",
   "platform": "windows-x64",
-  "version": "1.7.3",
-  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.7.3.zip",
-  "size": 2777929,
-  "sha256": "113ed6fbf22e1bb4f947898b557ced1d6619f308daa5b1de9c36c3e96de5259c",
-  "notes": "오너클랜 계정의 Windows 암호화 저장을 기본 선택하고, 저장 상태와 재실행 시 자동 인증을 안내합니다."
+  "version": "1.7.4",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.7.4.zip",
+  "size": 2835266,
+  "sha256": "0fa96d3c44a9b689f9933fb3196e629c0e0a7d0d80bf9c62b7effa08fdb1741c",
+  "notes": "WingDesk 런처의 파란색 W 아이콘을 상품 관리 화면에 적용했습니다."
 }
