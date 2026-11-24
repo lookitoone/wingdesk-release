@@ -2,9 +2,9 @@
   "schema": 1,
   "product": "wingdesk-source",
   "platform": "windows-x64",
-  "version": "1.8.1",
-  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.8.1.zip",
-  "size": 2838591,
-  "sha256": "e42446022eb38a478055e89ee2412a81b2a2a6f1d1e117f9ecb58b0d4fd3337e",
-  "notes": "등록 후 6개월이 지나도록 주문 이력이 없는 상품을 검토합니다. 예전 주문도 모든 옵션을 보호합니다. 실제 계정 이력 대조가 필요합니다."
+  "version": "1.8.2",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.8.2.zip",
+  "size": 2840944,
+  "sha256": "6921080756f6c09da01723678cd22bb7c77f9f1902ffcf0e021a688c1f1e906e",
+  "notes": "대량 수집 시 반복 읽기를 줄이고 상품코드 보관함과 수집 내역을 복구 사본과 함께 전체 비울 수 있습니다. 상품 목록은 유지됩니다."
 }
