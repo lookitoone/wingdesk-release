@@ -2,9 +2,9 @@
   "schema": 1,
   "product": "wingdesk-source",
   "platform": "windows-x64",
-  "version": "1.8.3",
-  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.8.3.zip",
-  "size": 2840962,
-  "sha256": "6acdcccc6d3729d53a90848102535d2a25802d6c4cea7004bfc9f24a7bcb859f",
-  "notes": "오너클랜 조회 실패 상품을 수집 목록과 이후 수집 대상에서 자동으로 제외합니다."
+  "version": "1.8.4",
+  "url": "https://raw.githubusercontent.com/lookitoone/wingdesk-release/main/packages/WingDesk-app-1.8.4.zip",
+  "size": 2841592,
+  "sha256": "f44cbfebd1d2e4451d58df3dae7601462367821946dbe9fbae9f3d2d123919e1",
+  "notes": "필수정보 입력이 필요한 상품을 쿠팡 등록 목록과 등록 선택에서 자동으로 제외합니다."
 }
